@@ -22,7 +22,7 @@ const LeagueDetail = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeague(data.teams[0]))
-    })
+    },[strTeam])
 
     return (
         <>
