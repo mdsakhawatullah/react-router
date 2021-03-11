@@ -1,0 +1,44 @@
+.detail{
+    border: 3px solid grey;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 60px;   
+    display: flex;
+    background-color: bisque;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+}
+#bannerImage{
+    height: 30%;
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.image_pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    
+    left: 40%;
+   
+}
+.footer > div {
+    margin: 0px 10px;
+    width: 70px ;
+    height: 70px;
+    background:whitesmoke;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    
+}
+
+
