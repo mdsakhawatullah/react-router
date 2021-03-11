@@ -4,7 +4,6 @@ import './LeagueDetail.css';
 import malepic from './male.png';
 import femalepic from './female.png'
 import { Card, Button } from 'react-bootstrap';
-import User from './User';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
@@ -22,7 +21,7 @@ const LeagueDetail = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setLeague(data.teams[0]))
-    },[strTeam])
+    },[])
 
     return (
         <>
